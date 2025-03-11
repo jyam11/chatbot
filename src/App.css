@@ -1,0 +1,30 @@
+.input-container {
+  padding-top: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.search-bar {
+  width: 45%;
+  height: 125px;
+  padding-right: 40px; /* Leave space for the clear button */
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border-width: 1px;
+}
+
+.submit-btn {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 50%;
+  margin-top: 10px;
+}
+
+.html {
+  background-color: gray;
+}
