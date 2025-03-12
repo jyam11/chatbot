@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { axios } from 'axios'
 import './App.css'
 
 function App() {
@@ -6,6 +7,10 @@ function App() {
   // useState react hook. "useState("")" is the intial variable, in this case an empty string. setMessage() is the function I will use to set it to the next state.
   const [message, setMessage] = useState("");
   const [response, setResponse] = useState("");
+
+  // const sendMessage = () => {
+  //   const res = await axios.post()
+  // }
 
   function sendMessage(e) {
     setMessage(e.target.value);

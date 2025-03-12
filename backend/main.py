@@ -21,3 +21,7 @@ app.add_middleware(
 async def get_info():
     return {"message": "Hello World"}
 
+@app.post("/post")
+async def post_question(message: str):
+    print("message recieved: ", {message})
+    return {"{message}"}
